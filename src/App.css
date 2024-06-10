@@ -1,0 +1,133 @@
+/* Adicione esses estilos ao seu arquivo App.css */
+
+/* Estilos para a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #201f1f;
+}
+
+/* Estilo para as linhas da tabela */
+tr:nth-child(even) {
+  background-color: #1a1919;
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+  background-color: #282c34;
+  color: rgb(4, 64, 143);
+}
+
+/* Estilo para os resultados da tabela */
+.resultado {
+  background-color: rgb(89, 89, 158);
+  color: rgb(121, 120, 120);
+  text-align: center;
+}
+
+
+/* Estilos para a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #063d79; /* Contorno da tabela */
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para as linhas da tabela */
+tr:nth-child(even) {
+  background-color: #dddcdc;
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+  background-color: #0e4b8d; 
+  color: rgb(227, 227, 228);
+}
+
+/* Estilo para os resultados da tabela */
+.resultado {
+  background-color: #0787ff; 
+  color: black; 
+  text-align: center;
+}
+
+/* Estilo para os números das páginas */
+.botao-paginacao {
+  background-color: #286aa7; 
+  color: rgba(248, 248, 247, 0.897);
+}
+
+/* Estilo para o texto do título */
+h1 {
+  color: #dc3545; 
+  text-align: center;
+}
+
+/* Adicione esses estilos ao seu arquivo App.css */
+
+/* Estilos para a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #007bff; /* Contorno da tabela */
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para as linhas da tabela */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+  background-color: #007bff; 
+  color: white;
+}
+
+/* Estilo para os resultados da tabela */
+.resultado {
+  background-color: #757573; 
+  color: black; /* Texto preto */
+  text-align: center;
+}
+
+/* Estilo para os números das páginas */
+.botao-paginacao {
+  background-color: #5e5f5f; 
+  color: white;
+  display: inline-block; /* Para centralizar os botões */
+}
+
+/* Estilo para o texto do título */
+h1 {
+  color: #dc3545; 
+  text-align: center;
+  font-size: 48px; /* Aumenta o tamanho do texto */
+  font-family: 'arial black', cursive; /* Altera a fonte  */
+  font-weight: bold; /* Coloca o texto em negrito */
+}
+
+/* Estilo para a página total */
+.App-paginacao {
+  background-color: #f4f7fa; 
+  text-align: center;
+}
+
+
+
