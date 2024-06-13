@@ -28,7 +28,6 @@ const Aplicativo = () => {
 
     useEffect(() => {
         buscarDados();
-        console.log('teste livros',livros)
     }, [paginaAtual]);
 
     const buscarDados = async () => {
@@ -44,17 +43,14 @@ const Aplicativo = () => {
 
     const buscarLivros = async (pagina: number): Promise<Livro[]> => {
         const resposta = await fetch(`http://localhost:3001/livro/${pagina}`);
-        console.log(resposta)
         if (!resposta.ok) {
             throw new Error("Falha ao buscar livros");
         }
-        // setLivros(resposta.data)
         return resposta.json();
     };
 
     const buscarTotalLivros = async () => {
         const resposta = await fetch(`http://localhost:3001/quantidade`);
-        console.log(resposta)
         if (!resposta.ok) {
             throw new Error("Falha ao buscar o total de livros");
         }
